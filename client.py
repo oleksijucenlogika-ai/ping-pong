@@ -43,7 +43,8 @@ font_main = font.Font(None, 36)
 # --- ЗОБРАЖЕННЯ ----
 
 # --- ЗВУКИ ---
-
+mixer.music.load("Tanger Bike.mp3")
+mixer.music.play(loops=0, start=0.0, fade_ms=0)
 # --- ГРА ---
 game_over = False
 winner = None
